@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/leeyuin_ui/static/css/main.f273a55b.css",
+    "main.js": "/leeyuin_ui/static/js/main.2dc2c831.js",
+    "index.html": "/leeyuin_ui/index.html",
+    "main.f273a55b.css.map": "/leeyuin_ui/static/css/main.f273a55b.css.map",
+    "main.2dc2c831.js.map": "/leeyuin_ui/static/js/main.2dc2c831.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f273a55b.css",
+    "static/js/main.2dc2c831.js"
+  ]
+}
