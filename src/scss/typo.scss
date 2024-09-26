@@ -1,0 +1,41 @@
+@import './init';
+.h {
+   &1 {
+      @include font(3.6352rem, 700);
+      letter-spacing: -0.1rem;
+      line-height: 135%;
+      padding-top: 4rem;
+      padding-left: 4vw;
+      padding-bottom: 3.2rem;
+      @include media('sm') {
+         padding-top: 2rem;
+      }
+   }
+   &2 {
+      @include font(3rem, 700, $text1);
+      letter-spacing: -0.1rem;
+      line-height: 130%;
+      padding-top: 5rem;
+      padding-left: 4vw;
+      padding-bottom: 3.2rem;
+      @include media('sm') {
+         padding-top: 2rem;
+      }
+   }
+   &3 {
+      @include font(2rem, 600, $text2);
+      letter-spacing: -0.1rem;
+   }
+   &4 {
+      @include font(1.8rem, 600, $text2);
+      letter-spacing: -0.1rem;
+   }
+   &5 {
+      @include font(1.6rem, 900, $text2);
+      letter-spacing: 0rem;
+   }
+   &6 {
+      @include font(1.6rem, 800, $text2);
+      letter-spacing: 0rem;
+   }
+}
